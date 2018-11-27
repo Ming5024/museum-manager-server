@@ -104,7 +104,7 @@ def getAudio(request):
     #     text = f.read()
 
     print(os.path.abspath(".."))
-    with open("123.txt", "r") as f:
+    with open("static/123.txt", "r") as f:
         text = f.read()
 
     print({"text": unicode(text, "gb2312")})
